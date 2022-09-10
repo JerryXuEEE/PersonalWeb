@@ -1,7 +1,7 @@
 baseURL: https://example.com
 languageCode: en
 defaultContentLanguage: en
-title: KeepIt
+title: Jerry Xu
 theme: KeepIt
 paginate: 12
 enableEmoji: yes
@@ -31,7 +31,7 @@ menu:
       weight: 4
 params:
   author: Fastbyte01
-  avatar: /images/me/avatar.jpeg
+  avatar: /images/me/me.jpg
   baidu_verification: ''
   bing_verification: ''
   cdn_url: ''
@@ -69,9 +69,9 @@ params:
       width: 127
     name: Fastbyte01
   share:
-    Facebook: yes
-    Linkedin: yes
-    Twitter: yes
+    Facebook: off
+    Linkedin: off
+    Twitter: off
     copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
       4.0 International License.
   since: 2012
@@ -80,8 +80,8 @@ params:
     GitHub: xxxx
     Linkedin: xxxx
     Twitter: xxxx
-  socialShare: yes
-  subtitle: A Hugo theme
+  socialShare: off
+  subtitle: Personal Website
   utterances:
     owner: ''
     repo: ''
@@ -97,4 +97,9 @@ params:
     visitor: yes
   yandex_verification: ''
 author:
-  name: Fastbyte01
+  name: Jerry Xu
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
